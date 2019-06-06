@@ -1,0 +1,29 @@
+.contenido__uno--fondo {
+    background-image: url("../img/img-1.png");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenido__uno--dimention {
+    height: 70vh;
+}
+
+.contenido__cajas--position {
+    position: relative;
+    right: -34vw;
+    top: 52vh;
+}
+
+.contenido__cajas--color {
+    background-color: $white;
+}
+
+.contenido__cajas--dimention {    
+    padding: 2rem;
+}
+
+.contenido__dos--size {
+    width: 70%;
+    padding-top: 10vh;
+}

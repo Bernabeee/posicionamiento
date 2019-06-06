@@ -1,4 +1,4 @@
-@import 'vendors/bootstrap';
+@import 'vendors/bootstrap-4.3.1/bootstrap';
 
 @import 'abstracts/variables';
 
@@ -6,7 +6,7 @@
 @import 'base/typography';
 
 @import 'layout/navigation';
-@import 'layout/grid';
+@import 'layout/content';
 @import 'layout/header';
 @import 'layout/footer';
 
