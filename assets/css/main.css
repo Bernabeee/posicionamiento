@@ -8822,13 +8822,37 @@ span {
 .primary_button {
   background-color: #ffffff;
   color: #a2a2a2;
-  padding: 5% 10%;
   border: 1px solid #a2a2a2;
-  text-decoration: none;
+}
+.primary_button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.secundary_button {
+  background-color: #4ca866;
+  color: #ffffff;
+}
+.secundary_button:hover {
+  background-color: #9dcfab;
+  color: #000000;
+  border: 1px solid #000000;
 }
 
 a:link {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: #000000;
+}
+nav ul li a:hover {
+  color: #a2a2a2;
 }
 
 /*# sourceMappingURL=main.css.map */
