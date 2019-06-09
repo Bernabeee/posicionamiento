@@ -27,3 +27,85 @@
     width: 70%;
     padding-top: 10vh;
 }
+
+.contenidodos__box {
+    height: 26%;
+    width: 26%;
+}
+.contenidodos__box--positionuno {
+    position: absolute;
+    bottom: 0vh;
+    left: 0;
+}
+
+.contenidodos__box--amarillo {
+    background-color: $coral;
+}
+
+.contenidodos__box--fire {
+    background-color: $flame;
+}
+
+.contenidodos__box--positiondos {
+    position: absolute;
+    bottom: 3vh;
+    left: -1vw;
+    text-align: center;
+}
+
+.contenidodos__icon {
+    margin-top: 40%;
+    color: $white;
+}
+
+.contenido__tres--fondo {
+    background-color: $white;
+}
+
+.contenido__tres--dimension {
+    padding: 2% 6% 2% 5%;
+}
+
+.contenido__tres--box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30vh;
+    width: 46.8%;
+}
+
+.contenido__tres--color {
+    background-color: $blue-de-france;
+}
+
+.mapa {
+    position: absolute;
+    bottom: 4vh;
+    width: 400px;
+}
+.contenido__tres--altura {
+    height: 35vh;;
+}
+
+.contenido__3--fondo {
+    background-image: url("../img/img-2.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.cafe {
+    background-image: url("../img/img-3.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.cafe__tamaño {
+    width: 8vw;
+    height: 25vh;
+}
+
+.cafe__position {
+    position: absolute;
+    top: 0%;
+    left: -15%;
+}
